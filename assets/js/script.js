@@ -52,6 +52,15 @@ const translations = {
   'phonev2': { 
    en: 'phone', 
    id: 'telepon'},
+  'years': { 
+   en: 'Years of Experience', 
+   id: 'Tahun Pengalaman'},
+  'workclr': { 
+   en: 'Completed Projects', 
+   id: 'Project Selesai'},
+  'happycln': { 
+   en: 'Happy Clients', 
+   id: 'Klien Senang'},
 
 
 
