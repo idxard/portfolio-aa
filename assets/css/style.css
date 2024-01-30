@@ -333,12 +333,19 @@ body.active {
   margin-left: auto;
 }
 
+/* Modify the language switcher */
 .navbar-actions select {
   color: var(--color-primary);
-  width: 45px;
+  width: 50px;
+  border: none;
+  background: var(--bg-secondary);
+  padding: 3px 6px; /* Adjust padding as needed */
+  border-radius: 10px; /* Adjust border-radius for rounded corners */
+  cursor: pointer;
+  transition: var(--transition-1);
 }
 
-.navbar-actions option {
+.navbar-actions select option {
   background: var(--bg-primary);
   color: var(--color-primary);
 }
@@ -350,6 +357,7 @@ body.active {
   border-radius: 100px;
   transition: var(--transition-1);
 }
+
 
 .header.active .theme-btn {
   background: var(--bg-primary);
